@@ -46,7 +46,7 @@ footer {
     opacity: 0.75;
 }
 
-.Buss {
+.buss {
     background-color: #546ECC;
     grid-column: 2/8;
     grid-row: 7 ;
@@ -54,6 +54,7 @@ footer {
     opacity: 1; 
     border: 0; 
     transition: al 0.3s ease 0s;
+    text-align: center;
 }
 
 .Buss:hover {
@@ -81,6 +82,9 @@ footer {
     background-color: #2980B9;
 }
 
+a{
+    font-size: 15px;
+}
 
 .dropdown {
     position: relative;
