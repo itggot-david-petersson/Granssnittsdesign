@@ -69,10 +69,11 @@ footer {
     
 }
 .dropbtn {
-    background-color: #3498DB;
-    color: white;
+    background-color: #546ECC;
+    color: black;
+    font-family: Source sans pro; 
     padding: 16px;
-    font-size: 16px;
+    font-size: 30px;
     border: none;
     cursor: pointer;
 }
@@ -108,5 +109,8 @@ footer {
 
 .dropdown {
     grid-column: 2/8;
-    grid-row: 4
+    grid-row: 4;
+    text-align: center;
+}
+
 }
