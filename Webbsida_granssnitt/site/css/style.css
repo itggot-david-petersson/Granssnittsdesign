@@ -7,10 +7,10 @@
         display:grid;
         grid-column-gap: 0px;
         margin:0 auto;
-        background-color: #ESF3FF;
     }
 
-    .textbox{
+
+     .textbox{
         grid-column: 2/8;
         grid-row: 3/7;
         -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
@@ -39,7 +39,7 @@
     h2{
         text-align: center;
     }
-    body{
+    .mexicopicture{
         background-image: url(../img/mexico.jpg);
         background-repeat: none;
         background-size: auto;
@@ -71,7 +71,7 @@
     .Flyg {
         background-color: #546ECC;
         grid-column: 2/8;
-        grid-row: 4;
+        grid-row: 4/5;
         font-size: 30px;
         opacity: 1;
         border: 0;
@@ -89,8 +89,9 @@
         font-size: 30px; 
         opacity: 1; 
         border: 0; 
-        transition: al 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
         text-align: center;
+        border-radius: 15px;
     }
     
     .Buss:hover {
@@ -153,7 +154,7 @@
         text-align: center;
     }
 
-    body{
+    .indiapicture{
         background-image: url(../img/Indien.jpg)
     }    
 
@@ -175,12 +176,14 @@
         grid-row: span 1;
     }
 
-    button{
+    .buttonmexico{
         grid-column: 4 / 6;
         grid-row: 7 / 8;
         background-color: #546ECC;
         margin-top: 10px;
         border-radius: 15px;
+        text-align: center;
+        margin-top: 15px;
     }
 
     h2{
@@ -194,4 +197,4 @@
 
 
 
-}
+} 

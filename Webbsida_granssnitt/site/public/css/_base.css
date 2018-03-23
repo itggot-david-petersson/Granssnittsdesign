@@ -1,0 +1,14 @@
+@media only screen and (max-device-width: 400px) {
+  .container {
+    height: 100vh;
+    widows: 100vw;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    display: grid;
+    grid-column-gap: 0px;
+    margin: 0 auto;
+    background-color: #E5F3FF; }
+
+  header {
+    grid-column: span 9;
+    grid-row: span 1; } }

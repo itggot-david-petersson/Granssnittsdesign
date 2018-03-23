@@ -1,1 +1,1 @@
-layout(layout.html.erb)
+layout('layout.html.erb')
