@@ -28,7 +28,7 @@
         grid-row: span 1;
     }
 
-    button{
+    .buttonindien{
         grid-column: 4 / 6;
         grid-row: 7 / 8;
         background-color: #546ECC;
@@ -43,6 +43,8 @@
         background-image: url(../img/mexico.jpg);
         background-repeat: none;
         background-size: auto;
+        grid-column: 1/9; 
+        grid-row: 2/11;
     }
 
     header {
@@ -76,6 +78,7 @@
         opacity: 1;
         border: 0;
         transition: all 0.3s ease 0s;
+        border-radius: 15px;
     }
     
     .Flyg:hover {
